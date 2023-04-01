@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="ac_tasklist.css">
+</head>
+<body>
+    <audio id="click-sound">
+        <source src="clicksound.mp3" type="audio/mpeg">
+      </audio>
+      
+    <style>
+        li::before{
+            content:'🦔 '
+        }
+    </style>
+
+    <div class="topbox">
+        <input type="text" id="todo-input" placeholder="Add New Task">
+        <button id="add-button">Add</button>
+        <div class="shroom-container">
+            <img src="shroom.png" class="shroom">
+            <button id="reset-button">Reset List</button>
+        </div>
+    </div>
+
+    <div class="box-container">
+        <div class="todobox">
+            <ul id="todo-list" style="list-style: none;">
+                <!--items to do will automatically go here-->
+            </ul>
+        </div>
+        <div class="donebox">
+            <ul id="done-list" style="list-style: none;">
+                <!--items that are done will automatically go here-->
+            </ul>
+        </div>
+    </div>
+
+    <script src="ac_tasklist.js"></script>
+    <script src="clicksound.mp3" id="click-sound"></script>
+</body>
+</html>
