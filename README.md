@@ -13,6 +13,8 @@ This is a code for a To-Do List web application that allows users to add tasks a
 
 This simple program enables users to input tasks via an input bar, which are then added to a to-do list. Completed tasks can be moved to the done list, while a reset button is available to remove all tasks from both lists. Moving one item to another list and clicking any button will also have a click sound.
 
+Please turn your volume up!
+
 
 
 https://user-images.githubusercontent.com/115472181/229286236-d6f0bdba-233f-45c2-841a-c4b37ddec3c1.mp4
